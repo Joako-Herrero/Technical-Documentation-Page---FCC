@@ -1,0 +1,52 @@
+html{
+	font-size: 62.5%;
+	background-color: #F6DF46;
+}
+@media (min-width: 460px){
+	nav{
+		overflow-y: auto;
+   		overflow-x: hidden;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		background-color: #D1BF46;
+		z-index: 1000;
+		position: fixed;
+		padding-right: 1rem;
+		margin-left: 0;
+		width: 25rem;
+	}
+	nav header{
+		text-align: center;
+		font-size: 3rem;
+	}
+	nav li{
+		text-align: center;
+		display:flex;
+		flex-direction: column;
+		align-items:center ;
+		padding: 0;
+		border: solid black 1px;
+		width: 19rem;
+		height: 7rem;
+		font-size: 2.5rem;
+	}
+	main{
+		margin-left:26rem ;
+	}
+	.main-section{
+		font-size: 1.8rem;
+
+	}
+	.main-section header{
+		border: solid  #323330 2px;
+		width: 80%;
+		font-size: 2rem;
+		text-align: center;
+		background-color: #D1BF46;
+	}
+	.main-section code{
+		background-color: #AF9803;
+	}
+}
+
